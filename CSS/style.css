@@ -11,15 +11,19 @@
   --text-tittle-2-color: ;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;500;600&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: arial, sans-serif;
 }
 
 html {
   font-size: 62.5%;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.3rem;
+  color: var(--fifth-color);
 }
 
 /* Body */
@@ -45,6 +49,8 @@ html {
 
 .test-container {
   border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .purple-test {
@@ -72,4 +78,35 @@ html {
 .black-test {
   grid-column: 2/4;
   background-color: var(--fourth-color);
+}
+
+.person-information {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  border-radius: 100%;
+  border: rgba(255, 255, 255, 0.5) solid 2px;
+}
+
+.person-text-container {
+  margin-left: 1rem;
+}
+
+.name {
+  font-weight: 500;
+}
+.verified-tag {
+  opacity: 50%;
+}
+
+.text-highlight {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.text-quote {
+  opacity: 70%;
+  margin-top: 1rem;
 }
