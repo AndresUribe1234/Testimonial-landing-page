@@ -1,0 +1,19 @@
+/* Global */
+
+:root {
+  --first-color: #5585b5;
+  --second-color: #53a8b6;
+  --third-color: #79c2d0;
+  --fourth-color: #bbe4e9;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
