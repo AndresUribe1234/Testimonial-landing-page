@@ -56,7 +56,7 @@ html {
   grid-column: 1/3;
   background-color: var(--second-color);
   position: relative;
-  background-image: url(/images/bg-pattern-quotation.svg);
+  background-image: url(/Testimonial-landing-page/images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-position: top 1rem right 5rem;
 }
